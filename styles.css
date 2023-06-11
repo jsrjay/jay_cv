@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 40px;
+  }
+  
+  #home {
+    background-color: rgb(3, 3, 77);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #academics {
+    background-color: rgb(113, 24, 196);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+  }
+  .aca th{
+      border: 1px solid;
+      border-collapse: collapse;
+  }
+  .aca td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.aca table {
+  border-collapse: collapse;
+  width: 100%;
+
+  font-size: 17px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+  
+  #about {
+    background-color: rgb(5, 5, 113);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  #LINK {
+    background-color: orange;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  
+  #projects {
+    background-color: purple;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  #projects a {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .purple{
+    color:orangered;
+  }
+  #element {
+    color: rgb(219, 16, 26);
+}
